@@ -1,0 +1,534 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(247, 247, 247);
+}
+
+/* ------------------------------------ */
+/* icons */
+/* ------------------------------------ */
+
+.icon {
+    position: absolute;
+    width: 80px;
+    top: 13px;
+    left: 200px;
+}
+
+.options {
+    position: absolute;
+    width: 25px;
+    margin-top: 35px;
+    margin-left: 1250px;
+    opacity: 0.7;
+}
+
+.telefon {
+    position: absolute;
+    width: 25px;
+    margin-left: 1265px;
+    margin-top: 48px;
+    opacity: 0.7;
+}
+
+.video {
+   position: absolute;
+   width: 35px;
+   margin-left: 1350px;
+   margin-top: 44px;
+   opacity: 0.7;
+}
+
+/* ------------------------------------ */
+/* messages icons*/
+/* ------------------------------------ */
+
+.emoji {
+    position: absolute;
+    width: 35px;
+    top: 678px;
+    margin-left: 1340px;
+    opacity: 0.7;
+}
+
+.emoji:hover {
+    transform: scale(1.0);
+    opacity: 0.9;
+    transition-delay: 0.1s;
+}
+
+.attach {
+    position: absolute;
+    width: 35px;
+    top: 678px;
+    margin-left: 1410px;
+    opacity: 0.7;
+}
+
+.attach:hover {
+    transform: scale(1.0);
+    opacity: 0.9;
+    transition-delay: 0.1s;
+}
+
+.send {
+    position: absolute;
+    width: 35px;
+    top: 678px;
+    margin-left: 1480px;
+    opacity: 0.7;
+}
+
+.send:hover {
+    transform: scale(1.0);
+    opacity: 0.9;
+    transition-delay: 0.1s;
+}
+
+/* ------------------------------------ */
+/* messages-bar */
+/* ------------------------------------ */
+
+.scris {
+    position: absolute;
+    top: 686px;
+    margin-left: 580px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: rgb(83, 83, 83);
+}
+
+.scr {
+    position: absolute;
+    display: flex;
+    border: 1px solid #dfe1e5;
+    margin-left: 560px;
+    top: 680px;
+    height: 30px;
+    width: 660px;
+    border-radius: 5px;
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+}
+
+.scr:hover {
+    background-color: #fff;
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+    border-color: rgba(223,225,229,0);
+}
+
+/* ------------------------------------ */
+/* search loupe */
+/* ------------------------------------ */
+.search {
+    position: absolute;
+    width: 22px;
+    top: 55px;
+    margin-left: 280px;
+    opacity: 0.60;
+}
+
+.search:hover {
+    transform: scale(1.0);
+    opacity: 0.9;
+    transition-delay: 0.1s;
+}
+
+/* ------------------------------------ */
+/* search bar */
+/* ------------------------------------ */
+
+.text-box{
+    position: absolute;
+    font-size: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-left: 63px;
+    top: 53px;
+    color: rgb(83, 83, 83);
+}
+
+.box {
+    position: relative;
+    font-size: 20px;
+    top: 55px;
+    margin-left: 550px;
+}
+
+.box {
+    display: flex;
+    border: 1px solid #dfe1e5;
+    height: 40px;
+    width: 290px;
+    max-width: 584px;
+    top: 45px;
+    margin-left: 35px;
+    border-radius: 50px;
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+}
+
+.box:hover {
+    background-color: #fff;
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+    border-color: rgba(223,225,229,0);
+}
+
+/* ------------------------------------ */
+/* line */
+/* ------------------------------------ */
+
+.line {
+    display: block;
+    border-style: inset;
+    border-width: 1px;
+    margin-top: 87px;
+    color: rgb(202, 199, 199);
+    opacity: 0.5;
+}
+
+.boxf {
+    position: relative;
+    margin-top: 145px;
+    margin-inline-end: 1017px;
+    color: rgb(202, 199, 199)
+}
+
+.boxg {
+    position: relative;
+    color: rgb(255, 255, 255);
+    margin-top: 140px;
+    margin-inline-end: 1017px;
+}
+
+.boxh {
+    position: relative;
+    margin-top: 140px;
+    margin-inline-end: 1017px;
+}
+
+/* ------------------------------------ */
+/* front name */
+/* ------------------------------------ */
+
+.front-name {
+    position: absolute;
+    margin-left: 550px;
+    font-size: 30px;
+    top: 30px;
+    color:black;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.description {
+    position: absolute;
+    margin-left: 553px;
+    top: 75px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(112, 112, 112);
+}
+
+/* ------------------------------------ */
+/* author */
+/* ------------------------------------ */
+
+.author {
+    position: absolute;
+    width: 90px;
+    margin-left: 550px;
+    top: 190px;
+    border-radius: 50%;
+}
+
+.author:hover {
+    background-color: #fff;
+    box-shadow: 0 1px 20px rgb(139, 139, 139);
+    border-color: rgba(0, 0, 0, 0);
+}
+
+/* ------------------------------------ */
+/* Michael Berton */
+/* ------------------------------------ */
+
+.firstperson {
+    position: absolute;
+    width: 90px;
+    border-radius: 50%;
+    top: 160px;
+    margin-left: 30px;
+    border-style: dashed;
+    border: 2px solid rgb(121, 121, 121);
+}
+
+.firstperson:hover {
+    background-color: #fff;
+    box-shadow: 0 2px 7px rgb(139, 139, 139);
+    border-color: rgba(0, 0, 0, 0);
+}
+
+.Michael {
+    position: absolute;
+    color: black;
+    margin-left: 145px;
+    top: 180px;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.time {
+    position: absolute;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 400px;
+    top: 180px;
+    opacity: 0.5;
+}
+
+.descriere1 {
+    position: absolute;
+    font-size: 17px;
+    margin-left: 146px;
+    top: 215px;
+    color: rgb(63, 60, 60);
+    opacity: 0.8;
+}
+
+/* ------------------------------------ */
+/* Soham Ray */
+/* ------------------------------------ */
+
+.secondperson {
+    position: absolute;
+    width: 90px;
+    border-radius: 50%;
+    top: 300px;
+    margin-left: 30px;
+    border-style: dashed;
+    border: 2px solid rgb(121, 121, 121);
+}
+
+.secondperson:hover {
+    background-color: #fff;
+    box-shadow: 0 1px 5px rgb(139, 139, 139);
+    border-color: rgba(0, 0, 0, 0);
+}
+
+.secondname {
+    color: black;
+    position: absolute;
+    top: 320px;
+    margin-left: 145px;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ora {
+    position: absolute;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 435px;
+    top: 320px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    opacity: 0.5;
+}
+
+.despre {
+    position: absolute;
+    top: 355px;
+    margin-left: 146px;
+    font-size: 17px;
+    opacity: 0.8;
+    color: rgb(63, 60, 60);
+}
+
+/* ------------------------------------ */
+/* Darlene Lawrence */
+/* ------------------------------------ */
+
+.thirdperson {
+    position: absolute;
+    width: 90px;
+    border-radius: 50%;
+    top: 445px;
+    margin-left: 30px;
+    border-style: dashed;
+    border: 2px solid rgb(121, 121, 121);
+}
+
+.thirdperson:hover {
+    background-color: #fff;
+    box-shadow: 0 1px 5px rgb(139, 139, 139);
+    border-color: rgba(0, 0, 0, 0);
+}
+
+.thirdname {
+    color: black;
+    position: absolute;
+    top: 465px;
+    margin-left: 145px;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.darling {
+    position: absolute;
+    top: 502px;
+    margin-left: 146px;
+    font-size: 17px;
+    opacity: 0.8;
+    color: rgb(63, 60, 60);
+}
+
+.laston {
+    position: absolute;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 400px;
+    top: 465px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    opacity: 0.5;
+}
+
+/* ------------------------------------ */
+/* Matthew Hill */
+/* ------------------------------------ */
+
+.lastone {
+    position: absolute;
+    width: 90px;
+    border-radius: 50%;
+    top: 590px;
+    margin-left: 30px;
+    border-style: dashed;
+    border: 2px solid rgb(121, 121, 121);
+}
+
+.lastone:hover {
+    background-color: #fff;
+    box-shadow: 0 1px 5px rgb(139, 139, 139);
+    border-color: rgba(0, 0, 0, 0);
+}
+
+.fourthname {
+    color: black;
+    position: absolute;
+    top: 610px;
+    margin-left: 145px;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.caracter {
+    position: absolute;
+    top: 645px;
+    margin-left: 146px;
+    font-size: 17px;
+    opacity: 0.8;
+    color: rgb(63, 60, 60);
+}
+
+.connected {
+    position: absolute;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 420px;
+    top: 608px;
+    opacity: 0.5;
+}
+
+/* ------------------------------------ */
+/* Mesaje */
+/* ------------------------------------ */
+
+.firstmsj {
+    display: flex;
+    position: absolute;
+    margin-left: 670px;
+    top: 210px;
+    font-size: 23px;
+}
+
+
+.firsthour {
+    position: absolute;
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 669px;
+    top: 250px;
+    opacity: 0.5;
+}
+
+.firstrespons {
+    position: absolute;
+    margin-left: 980px;
+    top: 340px;
+    font-size: 23px;
+}
+
+.secoundhour {
+    position: absolute;
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 1415px;
+    top: 385px;
+    opacity: 0.5;
+}
+
+.secoundmsj {
+    position: absolute;
+    margin-left: 669px;
+    top: 480px;
+    font-size: 23px;
+}
+
+.thirdhour {
+    position: absolute;
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 669px;
+    top: 520px;
+    opacity: 0.5;
+}
+
+.secoundauthor {
+    position: absolute;
+    width: 90px;
+    margin-left: 550px;
+    top: 460px;
+    border-radius: 50%;
+}
+
+.secoundauthor:hover {
+    background-color: #fff;
+    box-shadow: 0 1px 20px rgb(139, 139, 139);
+    border-color: rgba(0, 0, 0, 0);
+}
+
+.thirdmsj {
+    position: absolute;
+    margin-left: 1310px;
+    top: 590px;
+    font-size: 23px;
+}
+
+.fourthhour {
+    position: absolute;
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 1417px;
+    top: 626px;
+    opacity: 0.5;
+}
+
+.vl {
+    border-left: 1px solid rgb(202, 199, 199);
+    height: 720px;
+    position: absolute;
+    left: 520px;
+    margin-left: -3px;
+    top: 0;
+}
+
+.conversation {
+    display: flexbox;
+    position: relative;
+    top: 107px;
+    margin-inline-start: 517px;
+}
